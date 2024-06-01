@@ -17,53 +17,53 @@ function App() {
   const cardsStyles = [
     {
       cor: 'Vermelho',
-      corPrimaria: '#ff2323',
-      corSecundaria: 'linear-gradient(19deg, rgba(218,30,81,1) 15%, rgba(145,0,37,1) 50%, rgba(145,0,0,1) 85%)'
+      corPrimaria: '#410000',
+      corSecundaria: 'radial-gradient(circle, #ff5e5e, #eb4f4c, #d8403b, #c4312b, #b1201a, #b1201a, #b1201a, #b1201a, #c4312b, #d8403b, #eb4f4c, #ff5e5e)'
     },
     {
       cor: 'Azul',
-      corPrimaria: '#1edace',
-      corSecundaria: 'linear-gradient(19deg, rgba(30,218,206,1) 15%, rgba(0,83,145,1) 50%, rgba(2,0,145,1) 85%)'
+      corPrimaria: '#080297',
+      corSecundaria: 'radial-gradient(circle, #43e7ff, #00cfff, #00b5ff, #0097ff, #0074ff, #0074ff, #0074ff, #0074ff, #0097ff, #00b5ff, #00cfff, #43e7ff)'
     },
     {
       cor: 'Amarelo',
-      corPrimaria: '#fffa55',
-      corSecundaria: 'linear-gradient(19deg, rgba(218,213,30,1) 15%, rgba(127,145,0,1) 50%, rgba(187,255,35,1) 100%)'
+      corPrimaria: '#595901',
+      corSecundaria: 'radial-gradient(circle, #eaff5e, #d5e44d, #c0cb3d, #abb12d, #96991c, #96991c, #96991c, #96991c, #abb12d, #c0cb3d, #d5e44d, #eaff5e)'
     },
     {
       cor: 'Verde',
-      corPrimaria: '#9fff26',
-      corSecundaria: 'linear-gradient(19deg, rgba(180,255,85,1) 1%, rgba(30,145,0,1) 50%, rgba(35,255,75,1) 100%)'
+      corPrimaria: '#083900',
+      corSecundaria: 'radial-gradient(circle, #5eff88, #51dd6d, #44bd53, #359d3a, #257f22, #257f22, #257f22, #257f22, #359d3a, #44bd53, #51dd6d, #5eff88)'
     },
     {
       cor: 'Roxo',
-      corPrimaria: '#e3abff',
-      corSecundaria: 'linear-gradient(19deg, rgba(220,161,250,1) 1%, rgba(150,30,255,1) 50%, rgba(165,0,252,1) 100%)'
+      corPrimaria: '#11001A',
+      corSecundaria: 'radial-gradient(circle, #c05eff, #a04ad6, #8237af, #642589, #481465, #481465, #481465, #481465, #642589, #8237af, #a04ad6, #c05eff)'
     },
     {
       cor: 'Violeta',
-      corPrimaria: '#fe8eff',
-      corSecundaria: 'linear-gradient(19deg, rgba(254,129,255,1) 1%, rgba(255,54,244,1) 27%, rgba(255,0,254,1) 100%)'
+      corPrimaria: '#480048',
+      corSecundaria: 'radial-gradient(circle, #c000e9, #b100cf, #a200b6, #92009e, #810087, #810087, #810087, #810087, #92009e, #a200b6, #b100cf, #c000e9)'
     },
     {
       cor: 'Laranja',
-      corPrimaria: '#ff7300',
-      corSecundaria: 'linear-gradient(19deg, rgba(255,139,85,1) 1%, rgba(255,178,54,1) 27%, rgba(255,115,0,1) 100%)'
+      corPrimaria: '#894E00',
+      corSecundaria: 'radial-gradient(circle, #ffa602, #f39b02, #e79002, #da8501, #ce7a01, #ce7a01, #ce7a01, #ce7a01, #da8501, #e79002, #f39b02, #ffa602)'
     },
     {
       cor: 'Branco',
-      corPrimaria: '#2b2b2b',
-      corSecundaria: 'linear-gradient(19deg, rgba(255,255,255,1) 1%, rgba(255,254,253,1) 34%, rgba(218,218,218,1) 100%)'
+      corPrimaria: '#A8A8A8',
+      corSecundaria: 'radial-gradient(circle, #f9f9f9, #ebebeb, #dedede, #d0d0d0, #c3c3c3, #c2c2c2, #c2c2c2, #c1c1c1, #cecece, #dadada, #e7e7e7, #f4f4f4)'
     },
     {
       cor: 'Preto',
-      corPrimaria: '#ececec',
-      corSecundaria: 'linear-gradient(19deg, rgba(75,75,75,1) 1%, rgba(41,41,41,1) 34%, rgba(0,0,0,1) 100%)'
+      corPrimaria: '#040404',
+      corSecundaria: 'radial-gradient(circle, #424242, #383838, #2f2f2f, #262626, #1d1d1d, #1d1d1d, #1d1d1d, #1d1d1d, #262626, #2f2f2f, #383838, #424242)'
     },
     {
       cor: 'Cinza',
-      corPrimaria: '#cfcfcf',
-      corSecundaria: 'linear-gradient(19deg, rgba(185,185,185,1) 1%, rgba(145,145,145,1) 34%, rgba(69,69,69,1) 100%)'
+      corPrimaria: '#373737',
+      corSecundaria: 'radial-gradient(circle, #999999, #8d8d8d, #828282, #767676, #6b6b6b, #6b6b6b, #6b6b6b, #6b6b6b, #767676, #828282, #8d8d8d, #999999)'
     }
   ]
 
