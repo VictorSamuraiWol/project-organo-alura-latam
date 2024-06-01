@@ -8,8 +8,8 @@ export default function CampoTexto(props) {
 
     return (
         <div className='campo'>
-            <label>{props.label}</label>
-            <input onChange={newValueFunction} value={props.value} required={props.obrigatorio} placeholder={props.placeholder}/>
+            <label htmlFor={props.label}>{props.label}</label>
+            <input name={props.label} onChange={newValueFunction} value={props.value} required={props.obrigatorio} placeholder={props.placeholder}/>
         </div>
     );
 }

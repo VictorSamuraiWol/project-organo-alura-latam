@@ -31,7 +31,7 @@ export function Form(props) {
     };
 
     return (
-        <section>
+        <section className='sectionForm'>
             <form onSubmit={aoSalvar} >
                 <CampoTexto value={imagem} newValue={imagem => setImagem(imagem)} obrigatorio={true} label='Imagem:' placeholder='Link da imagem:' />
                 <CampoTexto value={nome} newValue={nome => setNome(nome)} obrigatorio={true} label='Nome:' placeholder='Digite seu nome:' />

@@ -12,6 +12,7 @@ input {
     width: 80%;
     border-radius: 16px;
     border-style: none;
+    outline: none; /*tirar a borda laranja do input de pesquisa ao clicar */
     padding: 12px;
     color: #6278F7;
 }

@@ -53,7 +53,7 @@ function App() {
     {
       cor: 'Branco',
       corPrimaria: '#A8A8A8',
-      corSecundaria: 'radial-gradient(circle, #f9f9f9, #ebebeb, #dedede, #d0d0d0, #c3c3c3, #c2c2c2, #c2c2c2, #c1c1c1, #cecece, #dadada, #e7e7e7, #f4f4f4)'
+      corSecundaria: 'linear-gradient(to right top, #ffffff, #fbfbfb, #f6f6f6, #f2f2f2, #eeeeee, #eeeeee, #eeeeee, #eeeeee, #f2f2f2, #f6f6f6, #fbfbfb, #ffffff)'
     },
     {
       cor: 'Preto',

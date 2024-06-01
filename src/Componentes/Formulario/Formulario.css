@@ -1,8 +1,8 @@
-section {
+.sectionForm {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(226, 226, 226);
+    background: linear-gradient(to bottom, #999999, #858585, #727272, #606060, #4e4e4e, #4e4e4e, #4e4e4e, #4e4e4e, #606060, #727272, #858585, #999999);
     margin: 0;
 }
 
@@ -16,4 +16,5 @@ form {
     background-color: rgb(175, 175, 175);
     padding: 24px;
     margin: 0;
+
 }
