@@ -1,0 +1,17 @@
+.campo {
+    width: 100%;
+    padding: 12px 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 80%;
+    border-radius: 16px;
+    border-style: none;
+    padding: 12px;
+    color: #6278F7;
+}

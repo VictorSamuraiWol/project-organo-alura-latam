@@ -1,0 +1,21 @@
+.lista-suspensa {
+    width: 103%;
+}
+
+.label-lista-suspensa {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.select-lista-suspensa {
+    width: 80%;
+    border-radius: 16px;
+    border-style: none;
+    padding: 12px;
+    color: #6278F7;
+}
+
+.select-lista-suspensa option {
+    color: #6278F7;
+}
+

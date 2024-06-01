@@ -1,0 +1,19 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(175, 175, 175);
+    padding: 24px;
+    margin: 0;
+}

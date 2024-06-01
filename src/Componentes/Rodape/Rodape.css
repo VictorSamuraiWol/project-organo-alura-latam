@@ -1,0 +1,26 @@
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+    background-color: #6278F7;
+}
+
+.rodape .img-rodape {
+    width: 32px;
+}
+
+.rodape-imgs-center {
+    width: 126px;
+}
+
+.rodape-imgs-left {
+    display: flex;
+    gap: 12px;
+}
+
+
+
+.rodape h4 {
+    color: aliceblue;
+}

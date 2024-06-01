@@ -1,0 +1,15 @@
+.cardPlayer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    width: 10%;
+    border: 1px solid;
+    border-radius: 16px;
+}
+img {
+    width: 46px;
+    border-radius: 30%;
+}
