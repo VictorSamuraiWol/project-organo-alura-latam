@@ -33,11 +33,11 @@ export function Form(props) {
     return (
         <section>
             <form onSubmit={aoSalvar} >
-                <CampoTexto value={imagem} newValue={imagem => setImagem(imagem)} obrigatorio={true} label='Imagem' placeholder='Link da imagem' />
+                <CampoTexto value={imagem} newValue={imagem => setImagem(imagem)} obrigatorio={true} label='Imagem:' placeholder='Link da imagem:' />
                 <CampoTexto value={nome} newValue={nome => setNome(nome)} obrigatorio={true} label='Nome:' placeholder='Digite seu nome:' />
                 <CampoTexto value={time} newValue={time => setTime(time)} obrigatorio={true} label='Time:' placeholder='Digite seu time:' />
                 <CampoTexto value={selecao} newValue={selecao => setSelecao(selecao)} obrigatorio={true} label='Seleção:' placeholder='Digite sua seleção:' />
-                <ListaSuspensa value={cor} newValue={cor => setCor(cor)} obrigatorio={true} label='Cor principal do time/Seleção' itens={props.cardsStylesCor} />
+                <ListaSuspensa value={cor} newValue={cor => setCor(cor)} obrigatorio={true} label='Cor principal do time/Seleção:' itens={props.cardsStylesCor} />
                 <Botao>
                     Enviar
                 </Botao>

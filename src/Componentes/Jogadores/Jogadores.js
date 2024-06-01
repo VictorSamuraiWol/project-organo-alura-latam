@@ -4,7 +4,7 @@ const Jogadores = ({ imagem, nome, time, selecao, cor, corDeFundo }) => { //dese
 
     return(
         <div className='cardPlayer' style={{ backgroundColor: corDeFundo }} >
-            <img src={imagem} alt='Link da imagem' />
+            <img className='imgCards' src={imagem} alt='Link da imagem' />
             <h3>{nome}</h3>
             <h3>{time}</h3>
             <h3>{selecao}</h3>
