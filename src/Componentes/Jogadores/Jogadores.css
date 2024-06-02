@@ -3,11 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     padding: 16px;
-    width: 10%;
+    width: 13%;
     border: 1px solid;
     border-radius: 16px;
+    box-shadow: 3px 3px 0.5px;
 }
 
 .imgCards {

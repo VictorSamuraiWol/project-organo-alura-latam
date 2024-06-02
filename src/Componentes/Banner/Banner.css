@@ -1,7 +1,8 @@
 .banner {
-    background-color: #6278F7;    
+    background: linear-gradient(to right bottom, #92ff55, #82fa50, #70f54a, #5cef45, #44ea41, #36db39, #27cc32, #13be2a, #16a31e, #148912, #106f07, #0b5700);    
 }
 
 .banner img {
-    width: 50%;
+    height: 210px;
+    width: 100%;
 }
