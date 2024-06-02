@@ -1,4 +1,5 @@
 .cardPlayer {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,4 +14,10 @@
 .imgCards {
     width: 46px;
     border-radius: 30%;
+}
+
+.deletePlayer {
+    position: absolute;
+    top: 0;
+    right: 4px;
 }
