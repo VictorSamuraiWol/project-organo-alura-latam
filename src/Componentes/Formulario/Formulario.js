@@ -3,7 +3,6 @@ import CampoTexto from '../CampoTexto/CampoTexto'
 import ListaSuspensa from '../ListaSuspensa';
 import Botao from '../Botao/Botao';
 import { useState } from 'react';
-import { v4 as uuidv4 } from 'uuid';
 
 export function Form(props) {
 
