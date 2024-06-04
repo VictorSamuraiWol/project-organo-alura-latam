@@ -91,7 +91,7 @@ function App() {
     // console.log(user);
   }
 
-  const cardsStyles = [
+  const [cardsStyles, setCardsStyles] = useState([
     {
       id: uuidv4(),
       cor: 'Vermelho',
@@ -152,7 +152,17 @@ function App() {
       corPrimaria: '#373737',
       corSecundaria: 'radial-gradient(circle, #999999, #8d8d8d, #828282, #767676, #6b6b6b, #6b6b6b, #6b6b6b, #6b6b6b, #767676, #828282, #8d8d8d, #999999)'
     }
-  ]
+  ])
+
+  const mudarCorFunc = (cor, id) => {
+    setCardsStyles(cardsStyles.map(cards => {
+      if(cards.id === id) {
+        cards.corPrimaria = cor;
+      }
+      // console.log(cards)
+      return cards; 
+    }))
+  }
 
   const deleteFuncConst = (id) => {
     setUsers(users.filter(user => user.id !== id))
@@ -167,12 +177,14 @@ function App() {
       />
       {cardsStyles.map(grupo => 
       <Grupos 
+        id={grupo.id}
         key={grupo.cor} 
         cor={grupo.cor} 
         corPrimaria={grupo.corPrimaria} 
         corSecundaria={grupo.corSecundaria}
         users={users.filter(user => user.cor === grupo.cor)}
-        deleteFunc={deleteFuncConst} 
+        deleteFunc={deleteFuncConst}
+        mudarCor={mudarCorFunc}
       />)}
       <Rodape />
     </div>

@@ -3,7 +3,7 @@ import './Jogadores.css'
 
 const Jogadores = ({ imagem, nome, time, selecao, cor, corDeFundo, toDelete, user }) => { //desestruturação (sem usar o props)
 
-    console.log(user)
+    // console.log(user)
 
     return(
         <div className='cardPlayer' style={{ backgroundColor: corDeFundo, boxShadow: cor }} >
