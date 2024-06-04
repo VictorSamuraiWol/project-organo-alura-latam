@@ -4,7 +4,7 @@ import './Banner.css';
 const Banner = () => {
     return (
         <header className='banner'>
-            <img src='imgs/football-jpg.jpg' alt='imagem banner' />
+            <img src='imgs/football.jpg' alt='imagem banner' />
         </header>
     );
 }
