@@ -5,14 +5,15 @@ const Grupos = (props) => {
 
     return(
         props.users.length > 0 && <section className='grupos' style={{ background: props.corSecundaria }}>
-            <input onChange={
+            <input
+                className='input-color' 
+                type='color' 
+                value={props.corPrimaria}
+                onChange={
                 evento => {
                     props.mudarCor(evento.target.value, props.id)
                     // console.log(props.id)
                 }} 
-                className='input-color' 
-                type='color' 
-                value={props.corPrimaria}
             />
             <h2 style={{ borderBottomColor: props.corPrimaria, color: props.corPrimaria }}>Grupo da cor: {props.cor} </h2>
             <div className='cardsPLayers' style={{ color: props.corPrimaria }}>
