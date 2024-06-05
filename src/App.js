@@ -81,6 +81,14 @@ function App() {
       selecao: 'Brasil',
       time: 'Real Madrid',
       id: uuidv4()
+    },
+    {
+      cor: 'Vinho',
+      imagem: 'https://github.com/VictorSamuraiWol.png',
+      nome: 'Victor',
+      selecao: 'Brasil',
+      time: 'Real Madrid',
+      id: uuidv4()
     }
   ]
 
@@ -151,6 +159,12 @@ function App() {
       cor: 'Cinza',
       corPrimaria: '#373737',
       corSecundaria: 'radial-gradient(circle, #999999, #8d8d8d, #828282, #767676, #6b6b6b, #6b6b6b, #6b6b6b, #6b6b6b, #767676, #828282, #8d8d8d, #999999)'
+    },
+    {
+      id: uuidv4(),
+      cor: 'Vinho',
+      corPrimaria: '#4b0000',
+      corSecundaria: 'linear-gradient(19deg, rgba(154,43,43,1) 30%, rgba(131,0,0,1) 77%)'
     }
   ])
 
