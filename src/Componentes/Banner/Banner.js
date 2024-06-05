@@ -4,7 +4,9 @@ import './Banner.css';
 const Banner = () => {
     return (
         <header className='banner'>
+            <img className='imgBanner1' src='imgs/football.jpg' alt='imagem banner' />
             <img src='imgs/football.jpg' alt='imagem banner' />
+
         </header>
     );
 }

@@ -1,8 +1,12 @@
 .banner {
+    display: flex;
     background: #8D173A;    
 }
 
 .banner img {
-    height: 180px;
-    width: 100%;
+    width: 50%;
+}
+
+.imgBanner1 {
+    transform: rotateY(180deg);
 }
