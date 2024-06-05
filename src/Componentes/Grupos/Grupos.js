@@ -4,7 +4,7 @@ import './Grupos.css'
 const Grupos = (props) => {
 
     return(
-        props.users.length > 0 && <section className='grupos' style={{ background: props.corSecundaria }}>
+        props.users.length > 0 && <section className='grupos' style={{ background: props.corSecundaria, borderColor: props.corPrimaria }}>
             <input
                 className='input-color' 
                 type='color' 
@@ -15,7 +15,7 @@ const Grupos = (props) => {
                     // console.log(props.id)
                 }} 
             />
-            <h2 style={{ borderBottomColor: props.corPrimaria, color: props.corPrimaria }}>Grupo da cor: {props.cor} </h2>
+            <h2 style={{ borderBottomColor: props.corPrimaria, color: props.corPrimaria }}>Grupo: {props.cor} </h2>
             <div className='cardsPLayers' style={{ color: props.corPrimaria }}>
                 {props.users.map((user, indice) => 
                 <Jogadores 

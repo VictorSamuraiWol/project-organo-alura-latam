@@ -26,6 +26,7 @@ export function Form(props) {
                 cor
             }
         )
+        alert('Card criado com sucesso!')
         //limpando os inputs após o submit
         setImagem('')
         setNome('')
@@ -74,6 +75,8 @@ export function Form(props) {
                 onSubmit={(event) => {
                     event.preventDefault()
                     props.criarGrupo({ cor: nomeGrupo, corSecundaria: corGrupo })
+                    alert('Grupo criado com sucesso!')
+                    setNomeGrupo('')
                     }} 
                 >
                 <Campo 
