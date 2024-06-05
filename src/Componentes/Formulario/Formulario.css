@@ -2,8 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, #999999, #858585, #727272, #606060, #4e4e4e, #4e4e4e, #4e4e4e, #4e4e4e, #606060, #727272, #858585, #999999);
+    gap: 12px;
+    padding: 8px 8px;
     margin: 0;
+    background: linear-gradient(to bottom, #999999, #858585, #727272, #606060, #4e4e4e, #4e4e4e, #4e4e4e, #4e4e4e, #606060, #727272, #858585, #999999);
 }
 
 form {
@@ -16,5 +18,6 @@ form {
     background-color: rgb(175, 175, 175);
     padding: 24px;
     margin: 0;
-
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px #8D173A;
 }

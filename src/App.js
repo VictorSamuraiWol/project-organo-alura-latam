@@ -182,12 +182,17 @@ function App() {
     setUsers(users.filter(user => user.id !== id))
   }
 
+  function criarGrupo(novoGrupo) {
+    setCardsStyles([...cardsStyles, { ...novoGrupo, id: uuidv4() } ])
+  }
+
   return (
     <div className='allContent'>
       <Banner />
       <Form 
         newUserAssign={user => newUserFunc(user)} 
         cardsStylesCor={cardsStyles.map(jogadores => jogadores.cor)} 
+        criarGrupo={criarGrupo}
       />
       {cardsStyles.map(grupo => 
       <Grupos 
