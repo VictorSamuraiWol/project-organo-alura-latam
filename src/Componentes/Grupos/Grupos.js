@@ -4,7 +4,7 @@ import './Grupos.css'
 const Grupos = (props) => {
 
     return(
-        props.users.length > 0 && <section className='grupos' style={{ background: props.corSecundaria, borderColor: props.corPrimaria }}>
+        props.users.length > 0 && <section className='grupos' style={{ background: props.corSecundaria, borderColor: props.corPrimaria}}>
             <input
                 className='input-color' 
                 type='color' 
