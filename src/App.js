@@ -15,7 +15,8 @@ function App() {
       nome: 'Victor',
       selecao: 'Brasil',
       time: 'Real Madrid',
-      id: uuidv4()
+      id: uuidv4(),
+      favorito: false
     },
     {
       cor: 'Azul',
@@ -23,7 +24,8 @@ function App() {
       nome: 'Victor',
       selecao: 'Brasil',
       time: 'Real Madrid',
-      id: uuidv4()
+      id: uuidv4(),
+      favorito: false
     },
     {
       cor: 'Amarelo',
@@ -31,56 +33,64 @@ function App() {
       nome: 'Victor',
       selecao: 'Brasil',
       time: 'Real Madrid',
-      id: uuidv4()
+      id: uuidv4(),
+      favorito: false
     },    {
       cor: 'Verde',
       imagem: 'https://github.com/VictorSamuraiWol.png',
       nome: 'Victor',
       selecao: 'Brasil',
       time: 'Real Madrid',
-      id: uuidv4()
+      id: uuidv4(),
+      favorito: false
     },    {
       cor: 'Roxo',
       imagem: 'https://github.com/VictorSamuraiWol.png',
       nome: 'Victor',
       selecao: 'Brasil',
       time: 'Real Madrid',
-      id: uuidv4()
+      id: uuidv4(),
+      favorito: false
     },    {
       cor: 'Violeta',
       imagem: 'https://github.com/VictorSamuraiWol.png',
       nome: 'Victor',
       selecao: 'Brasil',
       time: 'Real Madrid',
-      id: uuidv4()
+      id: uuidv4(),
+      favorito: false
     },    {
       cor: 'Laranja',
       imagem: 'https://github.com/VictorSamuraiWol.png',
       nome: 'Victor',
       selecao: 'Brasil',
       time: 'Real Madrid',
-      id: uuidv4()
+      id: uuidv4(),
+      favorito: false
     },    {
       cor: 'Branco',
       imagem: 'https://github.com/VictorSamuraiWol.png',
       nome: 'Victor',
       selecao: 'Brasil',
       time: 'Real Madrid',
-      id: uuidv4()
+      id: uuidv4(),
+      favorito: false
     },    {
       cor: 'Preto',
       imagem: 'https://github.com/VictorSamuraiWol.png',
       nome: 'Victor',
       selecao: 'Brasil',
       time: 'Real Madrid',
-      id: uuidv4()
+      id: uuidv4(),
+      favorito: false
     },    {
       cor: 'Cinza',
       imagem: 'https://github.com/VictorSamuraiWol.png',
       nome: 'Victor',
       selecao: 'Brasil',
       time: 'Real Madrid',
-      id: uuidv4()
+      id: uuidv4(),
+      favorito: false
     },
     {
       cor: 'Vinho',
@@ -88,7 +98,8 @@ function App() {
       nome: 'Victor',
       selecao: 'Brasil',
       time: 'Real Madrid',
-      id: uuidv4()
+      id: uuidv4(),
+      favorito: false
     }
   ]
 
@@ -186,6 +197,16 @@ function App() {
     setCardsStyles([...cardsStyles, { ...novoGrupo, id: uuidv4() } ])
   }
 
+  function favoritar(id) {
+    setUsers(users.map(user => {
+      if (user.id === id) {
+      user.favorito = !user.favorito
+      }
+      return user
+    }
+    ))
+  }
+
   return (
     <div className='allContent'>
       <Banner />
@@ -204,6 +225,7 @@ function App() {
         users={users.filter(user => user.cor === grupo.cor)}
         deleteFunc={deleteFuncConst}
         mudarCor={mudarCorFunc}
+        favorito={favoritar}
       />)}
       <Rodape />
     </div>

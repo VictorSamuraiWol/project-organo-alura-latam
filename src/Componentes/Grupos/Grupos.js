@@ -28,6 +28,7 @@ const Grupos = (props) => {
                     style={{ border: props.corPrimaria }} corDeFundo={props.corSecundaria}
                     toDelete={props.deleteFunc}
                     user={user}
+                    favorito={props.favorito}
                 />)}
             </div>
         </section>
