@@ -3,6 +3,7 @@ import Campo from '../Campo/Campo'
 import ListaSuspensa from '../ListaSuspensa';
 import Botao from '../Botao/Botao';
 import { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 
 export function Form(props) {
 
@@ -12,7 +13,7 @@ export function Form(props) {
     const [selecao, setSelecao] = useState('');
     const [cor, setCor] = useState('');
     const [nomeGrupo, setNomeGrupo] = useState('');
-    const [corGrupo, setCorGrupo] = useState('');
+    const [corGrupo, setCorGrupo] = useState('#8D173A');
     
     const aoSalvar = (event) => {
         event.preventDefault()

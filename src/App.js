@@ -190,7 +190,9 @@ function App() {
   }
 
   const deleteFuncConst = (id) => {
-    setUsers(users.filter(user => user.id !== id))
+    setUsers(users.filter(user => 
+      user.id !== id
+    ))
   }
 
   function criarGrupo(novoGrupo) {
@@ -199,12 +201,10 @@ function App() {
 
   function favoritar(id) {
     setUsers(users.map(user => {
-      if (user.id === id) {
+      if (user.id === id) 
       user.favorito = !user.favorito
-      }
       return user
-    }
-    ))
+    }))
   }
 
   return (
