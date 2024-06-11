@@ -3,7 +3,7 @@ import Campo from '../Campo/Campo'
 import ListaSuspensa from '../ListaSuspensa';
 import Botao from '../Botao/Botao';
 import { useState } from 'react';
-import { v4 as uuidv4 } from 'uuid';
+import { PiToggleLeftFill, PiToggleRightFill } from "react-icons/pi";
 
 export function Form(props) {
 
@@ -14,6 +14,9 @@ export function Form(props) {
     const [cor, setCor] = useState('');
     const [nomeGrupo, setNomeGrupo] = useState('');
     const [corGrupo, setCorGrupo] = useState('#8D173A');
+    let [iconShow, setIconShow] = useState('flex');
+    let [iconHide, setIconHide] = useState('none');
+    let [displayForm, setDisplayForm] = useState('flex')
     
     const aoSalvar = (event) => {
         event.preventDefault()
@@ -36,9 +39,27 @@ export function Form(props) {
         setCor('')
     };
 
+    const styleButtonToggle = {
+        size: 30,
+        color: '#8D173A',
+    }
+
+    function hideAndShowForm() {
+        if (iconShow === 'flex') { 
+            setDisplayForm('none');
+            setIconShow('none');
+            setIconHide('flex');
+        } else if (iconHide === 'flex') {
+            setDisplayForm('flex');
+            setIconShow('flex');
+            setIconHide('none')
+        } else console.log('Algo deu errado!')
+    }
+
     return (
         <section className='sectionForm'>
             <form 
+                style={{ display: `${displayForm}` }}
                 onSubmit={aoSalvar} >
                 <Campo 
                     value={imagem} 
@@ -72,7 +93,9 @@ export function Form(props) {
                 />
                 <Botao>Enviar Card</Botao>
             </form>
-            <form 
+
+            <form
+                style={{ display: `${displayForm}` }}
                 onSubmit={(event) => {
                     event.preventDefault()
                     props.criarGrupo({ cor: nomeGrupo, corSecundaria: corGrupo })
@@ -96,6 +119,10 @@ export function Form(props) {
                 />
                 <Botao>Criar Grupo</Botao>
             </form>
+
+            <PiToggleRightFill onClick={hideAndShowForm} style={{ display: `${iconShow}` }} className='buttonToggle' size={styleButtonToggle.size} color={styleButtonToggle.color} />
+            <PiToggleLeftFill onClick={hideAndShowForm} style={{ display: `${iconHide}` }} className='buttonToggle' size={styleButtonToggle.size} color={styleButtonToggle.color} />
+
         </section>
     );
 

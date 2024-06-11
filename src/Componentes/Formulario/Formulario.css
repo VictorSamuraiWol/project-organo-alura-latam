@@ -3,8 +3,10 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
+    height: 600px;
     padding: 8px 8px;
     margin: 0;
+    position: relative;
     background: linear-gradient(to bottom, #999999, #858585, #727272, #606060, #4e4e4e, #4e4e4e, #4e4e4e, #4e4e4e, #606060, #727272, #858585, #999999);
 }
 
@@ -20,4 +22,10 @@ form {
     margin: 0;
     border-radius: 8px;
     box-shadow: 4px 4px 10px #8D173A;
+}
+
+.buttonToggle {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
