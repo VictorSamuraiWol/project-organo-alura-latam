@@ -104,7 +104,7 @@ export function Form(props) {
                     }} 
                 >
                 <Campo 
-                    label='Nome:' 
+                    label='NomeGrupo:' 
                     placeholder='Digite o nome do grupo:' 
                     value={nomeGrupo} 
                     newValue={value => setNomeGrupo(value)} obrigatorio={true} //se for true, não precisa atribuir o valor {true}
