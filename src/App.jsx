@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import Banner from './Componentes/Banner/Banner';
 import { Form } from './Componentes/Formulario/Formulario';
@@ -206,6 +206,15 @@ function App() {
       return user
     }))
   }
+  
+  //pegando os dados da api e juntando a lista de jogadores
+  useEffect(() => {
+      fetch('http://localhost:8080/Pessoas')
+      .then(resposta => resposta.json())
+      .then(dados => {
+        setUsers([...users, ...dados])
+      })
+  }, []);
 
   return (
     <div className='allContent'>

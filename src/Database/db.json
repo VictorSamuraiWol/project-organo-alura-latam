@@ -1,0 +1,52 @@
+{
+    "Pessoas": [
+        {
+            "cor": "Vermelho",
+            "imagem": "https://github.com/VictorSamuraiWol.png",
+            "nome": "VictorApi1",
+            "selecao": "Brasil",
+            "time": "Real Madrid",
+            "favorito": "false"
+        },
+        {
+            "cor": "Amarelo",
+            "imagem": "https://github.com/VictorSamuraiWol.png",
+            "nome": "VictorApi2",
+            "selecao": "Brasil",
+            "time": "Real Madrid",
+            "favorito": "false"
+        },
+        {
+            "cor": "Roxo",
+            "imagem": "https://github.com/VictorSamuraiWol.png",
+            "nome": "VictorApi3",
+            "selecao": "Brasil",
+            "time": "Real Madrid",
+            "favorito": "false"
+        },
+        {
+            "cor": "Laranja",
+            "imagem": "https://github.com/VictorSamuraiWol.png",
+            "nome": "VictorApi3",
+            "selecao": "Brasil",
+            "time": "Real Madrid",
+            "favorito": "false"
+        },
+        {
+            "cor": "Preto",
+            "imagem": "https://github.com/VictorSamuraiWol.png",
+            "nome": "VictorApi3",
+            "selecao": "Brasil",
+            "time": "Real Madrid",
+            "favorito": "false"
+        },
+        {
+            "cor": "Vinho",
+            "imagem": "https://github.com/VictorSamuraiWol.png",
+            "nome": "VictorApi3",
+            "selecao": "Brasil",
+            "time": "Real Madrid",
+            "favorito": "false"
+        }
+    ]
+}

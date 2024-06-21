@@ -2,7 +2,7 @@ import Jogadores from '../Jogadores/Jogadores'
 import './Grupos.css'
 
 const Grupos = (props) => {
-
+    
     return(
         props.users.length > 0 && <section className='grupos' style={{ background: props.corSecundaria, borderColor: props.corPrimaria}}>
             <input
@@ -29,7 +29,8 @@ const Grupos = (props) => {
                     toDelete={props.deleteFunc}
                     user={user}
                     favorito={props.favorito}
-                />)}
+                />
+                )}
             </div>
         </section>
     )
