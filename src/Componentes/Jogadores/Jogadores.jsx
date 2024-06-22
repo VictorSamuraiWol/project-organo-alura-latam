@@ -34,8 +34,8 @@ const Jogadores = ({ imagem, nome, time, selecao, cor, favorito, corDeFundo, toD
                 {user.favorito 
                     // ? <BsSuitHeartFill size={25} onClick={favoritaOuNao} color="ff0000" />
                     // : <BsSuitHeart size={25} onClick={favoritaOuNao} />
-                    ? <BsSuitHeartFill {...buttonFavorite} color="ff0000" />
-                    : <BsSuitHeart {...buttonFavorite} />
+                    ? <BsSuitHeartFill className="favoritoIcon" {...buttonFavorite} color="ff0000" />
+                    : <BsSuitHeart className="favoritoIcon" {...buttonFavorite} />
                 }
             </div>
         </div>
