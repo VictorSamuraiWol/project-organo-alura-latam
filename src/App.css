@@ -1,0 +1,12 @@
+#searchDiv {
+    display: flex;
+    justify-content: center;
+    background-color: #8D173A;
+    padding: 14px;
+}
+
+#pesquisa-nome {
+    /* background-color: rgb(175, 175, 175); */
+    /* text-align: center; */
+
+}

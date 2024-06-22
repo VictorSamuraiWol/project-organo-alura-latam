@@ -236,15 +236,16 @@ function App() {
       />
 
 
-
+    <div id='searchDiv'>
       <input onChange={event => {        
           setSearch(event.target.value)
         }} 
         type="text" 
         name="pesquisa-nome" 
         id="pesquisa-nome" 
-        placeholder="Digite o nome do jogador:" 
-      />
+        placeholder="Procure pelo nome do jogador:" 
+      />    
+    </div>  
 
 
 
