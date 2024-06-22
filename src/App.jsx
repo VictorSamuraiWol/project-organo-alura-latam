@@ -216,6 +216,16 @@ function App() {
       })
   }, []);
 
+  //pesquisa dos nomes dos jogadores da lista da Api
+  const [search, setSearch] = useState('');
+  useEffect(() => {
+    if (search && search.length > 3){ //buscar a partir de 4 letras em diante
+    fetch(`http://localhost:8080/Pessoas?nome=${search}`)
+    .then(resposta => resposta.json())
+    .then(dados => setUsers(dados))
+  }
+  }, [search]);
+
   return (
     <div className='allContent'>
       <Banner />
@@ -224,6 +234,20 @@ function App() {
         cardsStylesCor={cardsStyles.map(jogadores => jogadores.cor)} 
         criarGrupo={criarGrupo}
       />
+
+
+
+      <input onChange={event => {        
+          setSearch(event.target.value)
+        }} 
+        type="text" 
+        name="pesquisa-nome" 
+        id="pesquisa-nome" 
+        placeholder="Digite o nome do jogador:" 
+      />
+
+
+
       {cardsStyles.map(grupo => 
       <Grupos 
         id={grupo.id}
