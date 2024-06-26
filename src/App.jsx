@@ -243,7 +243,7 @@ function App() {
         type="text" 
         name="pesquisa-nome" 
         id="pesquisa-nome" 
-        placeholder="Procure pelo nome do jogador:" 
+        placeholder="Procure pelo nome do jogador: (obs: antes de procurar mock uma API na porta 8080 utilizando o arquivo db.json disponível na pasta Database)" 
       />    
     </div>  
 
