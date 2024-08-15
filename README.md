@@ -2,6 +2,7 @@
 <img 
     src="public/imgs/img-organo.png"
     width="800"
+    style="border: 1px solid grey; border-radius:5px"
 />
 </p>
 
