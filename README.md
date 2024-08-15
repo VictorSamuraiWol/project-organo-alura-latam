@@ -13,6 +13,8 @@
 ## ✨ Features
 ✅ Bem vindos! Este é um projeto com o objetivo de criar uma aplicação que adiciona, favorita, personaliza e exclui cards e grupos de cards na plataforma. Possui formulários para incluir imagem, nome, time, seleção, cor principal do time, nome e cor do grupo utilizando HTML, CSS, JavaScript e React. Minha gratidão a Deus, Oracle e Alura pela oportunidade.
 
+✅ Welcome! This project aims to create an application that adds, favorites, customizes, and deletes cards and card groups on the platform. It features forms to include an image, name, team, selection, team's primary color, group name and group color using HTML, CSS, JavaScript and React. My gratitude goes to God, Oracle and Alura for the opportunity.
+
 <a href="https://project-organo-alura-latam.vercel.app/" title="View Project now"> 📟 Clique aqui para visualizar a aplicação</a><br/>
 <a href="https://github.com/VictorSamuraiWol/project-organo-alura-latam" title="View Repository now"> 📜 Clique aqui para visualizar o reposiório</a>
 
