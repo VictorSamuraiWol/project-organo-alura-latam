@@ -1,7 +1,7 @@
 <p align="center">
 <img 
     src="public/imgs/img-organo.png"
-    width="500"
+    width="800"
 />
 </p>
 
@@ -9,23 +9,23 @@
 
  > ℹ️ **NOTE:** Este é um repositório desenvolvido durante os meus estudos da formação React T6 - Especialização do programa [ONE](https://www.oracle.com/br/education/oracle-next-education/) e na plataforma da [ALURA](https://www.alura.com.br/).
 
+## ✨ Features
 ✅ Bem vindos! Este é um projeto com o objetivo de criar uma aplicação que adiciona, favorita, personaliza e exclui cards e grupos de cards na plataforma. Possui formulários para incluir imagem, nome, time, seleção, cor principal do time, nome e cor do grupo utilizando HTML, CSS, JavaScript e React. Minha gratidão a Deus, Oracle e Alura pela oportunidade.
+
+<a href="https://project-organo-alura-latam.vercel.app/" title="View Project now"> 📟 Clique aqui para visualizar a aplicação</a><br/>
+<a href="https://github.com/VictorSamuraiWol/project-organo-alura-latam" title="View Repository now"> 📜 Clique aqui para visualizar o reposiório</a>
 
 ## 💻 Tecnologias utilizadas no projeto
 
+- [Trello](https://trello.com/) 
+- [Figma](https://www.figma.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
 - [HTML](https://html.com/) 
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 - [JavaScript](https://www.javascript.com/)
 - [React](https://react.dev/)
-- [Visual Studio Code](https://code.visualstudio.com/)
 - [Github](https://github.com/)
 - [Vercel](https://vercel.com/)
-
-## ✔ Repositório no Github
-🔗 https://github.com/VictorSamuraiWol/project-organo-alura-latam
-
-## ✔ Deploy no Vercel
-🔗 https://project-organo-alura-latam.vercel.app/
 
 ## 👨‍💻 Estudante Front End e AWS Cloud Computing
 
